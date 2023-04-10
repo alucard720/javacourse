@@ -1,0 +1,34 @@
+let name =['Maxwell Wright','Raja Villarreal','Helen Richards'];
+let Tel =['(0191) 719 6495','0866 398 2895','	0800 1111'];
+let Correo =['Curabitur.egestas.nunc@nonummyac.co.uk','posuere.vulputate@sed.com','libero@convallis.edu'];
+
+
+
+let contacts =
+[{"name":"Maxwell Wright",
+    "Telefono":"(0191) 719 6495"
+    "correo":"Curabitur.egestas.nunc@nonummyac.co.uk",}
+
+
+{"name":"Raja Villarreal",
+    "Telefono":"(0191) 719 6495"
+    "correo":"Curabitur.egestas.nunc@nonummyac.co.uk"},
+
+
+
+{"name":"Helen Richards",
+    "Telefono":"(0191) 719 6495"
+    "correo":"Curabitur.egestas.nunc@nonummyac.co.uk"}
+
+];
+
+let table = document.getElementById('table');
+for (let contact of contacts){
+    let tr = document.createElement('tr');
+    
+    
+    let td1 = document.createElement('td');
+    td1.textContent = contact.name;
+    tr.appendChild(td1);
+    
+    }
